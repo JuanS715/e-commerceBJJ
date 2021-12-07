@@ -1,11 +1,22 @@
 const Navbar = () => {
+
+
+    
+    
+    
+    
+    
     return <>
         <div id="Navbar">
-            <nav>
-                <img src="/logo192.png" alt="" />
-            </nav>
+        <nav class="nav nav-pills nav-justified">
+          <a class="nav-link active" aria-current="page" href="#" >Kimonos</a>
+          <a class="nav-link" href="#" >Aparrel</a>
+          <a class="nav-link" href="#">Bags</a>
+          <a class="nav-link disabled">Comming soon</a>
+        </nav>
         </div>
         
+
 
     </>
     
