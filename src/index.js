@@ -1,4 +1,4 @@
-import App from "./App"
+import App from "./components/App"
 
 
 //1) Necesitamos la variable React en scope
