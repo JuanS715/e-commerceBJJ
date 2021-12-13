@@ -1,9 +1,10 @@
 
 
-
-
 const Greetings = (props) =>{
-    console.log(props)
+
+
+    
+    
 
 
     return<>

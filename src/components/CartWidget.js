@@ -1,11 +1,14 @@
-const Cartwidget= () =>{
+
+
+const Cartwidget= ({foo}) =>{
+  
 
 
 
     return <>
       
       <div id="Cartwidget">
-          <span className="material-icons">
+          <span onClick={foo} className="material-icons">
             shopping_cart
 
         </span>
@@ -15,6 +18,9 @@ const Cartwidget= () =>{
 
     </>
 }
+
+  
+
 
 
 export default Cartwidget
