@@ -2,10 +2,15 @@ import {useState} from "react"
 
 
 
+
 const Buttons =()=> {
 
     const [contador, setContador] = useState(0)
 
+    
+    
+    
+    
 
     const sumar = () =>{
         setContador(contador + 1)
@@ -24,8 +29,8 @@ const Buttons =()=> {
 
 
 
-
     return <>
+    
     <p>Contador Actual : {contador}</p>
     <button onClick={sumar}>sumar</button>
     <button onClick={resta}>restar</button>

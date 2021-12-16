@@ -1,6 +1,6 @@
 
 
-const Cartwidget= ({foo}) =>{
+const Cartwidget= () =>{
   
 
 
@@ -8,7 +8,7 @@ const Cartwidget= ({foo}) =>{
     return <>
       
       <div id="Cartwidget">
-          <span onClick={foo} className="material-icons">
+          <span className="material-icons">
             shopping_cart
 
         </span>

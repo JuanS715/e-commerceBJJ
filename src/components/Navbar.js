@@ -1,6 +1,6 @@
 import Cartwidget from "./CartWidget"
 
-const Navbar = ({foo}) => {
+const Navbar = () => {
 
 
     
@@ -16,7 +16,7 @@ const Navbar = ({foo}) => {
           <a class="nav-link" href="#">Bags</a>
           <a class="nav-link disabled">Comming soon</a>
         </nav>
-        <Cartwidget foo={foo}/>
+        <Cartwidget />
         </div>
         
 
