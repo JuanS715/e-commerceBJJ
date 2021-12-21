@@ -1,6 +1,8 @@
 import Navbar from "./Navbar"
-import Greetings from "./ItemListContainer"
-import Buttons from "./Botones"
+
+import ItemDetailContainer from "./ItemDetailContainer"
+
+import ItemListContainer from "./ItemListContainer"
 
 
 
@@ -20,9 +22,10 @@ function App() {
 
 return <>
     <Navbar/>
-    <Greetings nombre="Juan"/>
     <main>Soy main</main>
-    <Buttons/>
+    
+    <ItemListContainer/>
+    <ItemDetailContainer/>
     
    
     
